@@ -5,10 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tools/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class = "bx bxl-c-plus-plus"></i>
+                <div class = "logo_name">CodingLab</div>
+            </div>
+            <i class='bx bx-menu' id = "btn"></i>
+        </div>
+        <ul class = "nav_list">
+            <li>
+                <i class='bx bx-search' ></i>
+                <input type="text" placeholder = "Search...">
+            </li>
+            <li>
+                <a href="#">
+                    <i class = "bx bx-grid-alt"></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-user' ></i>
+                    <span class="links_name">Users</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-pie-chart-alt-2' ></i>
+                    <span class="links_name">Analytics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-folder' ></i>
+                    <span class="links_name">File Manager</span>
+                </a>
+            </li>
+        </ul>
+    </div>
     <script src = "scripts/jquery-3.6.0.min.js"></script>
     <script src = "scripts/app.js"></script>
 </body>
