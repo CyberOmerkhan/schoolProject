@@ -104,3 +104,28 @@ body{
     left: 0;
     width: 100%;
 }
+.sidebar .profile_content .profile {
+    position: relative;
+    padding: 10px 6px;
+    height: 60px;
+    background: #1d1b31;
+}
+.sidebar .profile_content .profile .profile_details{
+    display: flex;
+    align-items: center;
+}
+.profile .profile_details img{
+    height: 45px;
+    width: 45px;
+    border-radius: 12px;;
+}
+.profile .profile_details .name_job{
+    margin-left: 10px;
+}
+.profile .profile_details .name{
+    font-size: 15px;
+    font-weight: 400;
+}
+.profile .profile_details .job{
+    font-size: 12px;
+}
