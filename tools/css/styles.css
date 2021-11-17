@@ -15,7 +15,7 @@ body{
     left: 30;
     right: 30;
     height: 100%;
-    width: 240px;
+    width: 78px;
     background: #11101d;
     padding: 6px 14px;
     transition: all 0.5s ease;
@@ -164,7 +164,7 @@ body{
     transform: translateX(-50%, 50%);
     line-height: 35px;
     text-align: center;
-    transition: 0.5s;
+    transition: all 0.5s ease;
     opacity: 0;
     pointer-events: none;
     display: block;
@@ -189,9 +189,6 @@ body{
 .sidebar ul li .bx-search:hover{
     background: #fff;
     color: #1d1b31;
-}
-.sidebar .logo_content .logo{
-    transition: all 0.5s ease;;
 }
 .sidebar.active .links_name{
     opacity: 1;
