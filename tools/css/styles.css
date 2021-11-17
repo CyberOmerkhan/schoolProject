@@ -12,8 +12,8 @@ body{
 }
 .sidebar{
     position: fixed;
-    left: 0;
-    right: 0;
+    left: 30;
+    right: 30;
     height: 100%;
     width: 240px;
     background: #11101d;
@@ -75,4 +75,32 @@ body{
 .sidebar ul li a:hover{
     color: #11101d;
     background: #fff;
+}
+.sidebar ul li input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: #1d1b31;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #fff;
+}
+.sidebar ul li .bx-search{
+    position: absolute;
+    z-index: 99;
+    color: #fff;
+    font-size: 22px;
+    transition: all 0.5 ease;
+}
+.sidebar .profile_content{
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
