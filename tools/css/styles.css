@@ -129,3 +129,14 @@ body{
 .profile .profile_details .job{
     font-size: 12px;
 }
+.profile #log_out{
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    transform: translateX(-50%);
+    min-width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
