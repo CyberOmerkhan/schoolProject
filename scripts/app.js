@@ -1,6 +1,5 @@
 const btn = document.querySelector('#btn');
-let sidebar = document.querySelector('.sidebar');
-let searchBtn = document.querySelector('.bx-search');
+let sidebar = document.getElementsByClassName('sidebar')[0];
 btn.onclick = () => {
     sidebar.classList.toggle('active');
 }
