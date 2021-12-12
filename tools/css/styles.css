@@ -129,6 +129,7 @@ body{
 }
 .profile .profile_details .job{
     font-size: 12px;
+    color: #b7b4b4;
 }
 .profile #log_out, .profile #log_in{
     position: absolute;
