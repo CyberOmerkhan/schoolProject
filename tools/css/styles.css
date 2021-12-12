@@ -130,7 +130,7 @@ body{
 .profile .profile_details .job{
     font-size: 12px;
 }
-.profile #log_out{
+.profile #log_out, .profile #log_in{
     position: absolute;
     left: 50%;
     bottom: 5px;
@@ -215,6 +215,6 @@ body{
     opacity: 1;
     pointer-events: auto;
 }
-.sidebar.active .profile #log_out{
+.sidebar.active .profile #log_out, .sidebar.active .profile #log_in{
     left: 88%;
 }
